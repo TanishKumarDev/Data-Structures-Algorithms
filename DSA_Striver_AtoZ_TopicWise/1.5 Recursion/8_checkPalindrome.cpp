@@ -8,22 +8,23 @@ void printResult(string label, bool res) {
 
 // 1️⃣ Brute Force
 bool isPalindromeBrute(string s) {
-    string t = s;
-    reverse(t.begin(), t.end());
-    return s == t;
+    string copy_s = s;
+    reverse(copy_s.begin(),copy_s.end());
+    return s == copy_s;
 }
 
 // 2️⃣ Better: Two-pointer (no cleaning)
 bool isPalindromeBetter(string s) {
-    int l = 0, r = s.length() - 1;
-    while (l < r) {
-        if (s[l] != s[r]) return false;
-        l++; r--;
+    int left = 0, right = s.length() - 1;
+    while (left < right) {
+        if (s[left] != s[right]) return false;
+        left++; right--;
     }
     return true;
 }
 
 // 3️⃣ Optimal: Two-pointer + cleaning
+// Intuition - Ignore spaces and symbols, treat 'A' and 'a' as same.
 bool isPalindromeOptimal(string s) {
     int l = 0, r = s.length() - 1;
     while (l < r) {
@@ -48,8 +49,8 @@ int main() {
     getline(cin, s); // Use getline to allow spaces in input
 
     // cout << "\n=== Palindrome Check Results ===\n";
-    printResult("Brute Force", isPalindromeBrute(s));
-    printResult("Better", isPalindromeBetter(s));
+    printResult("Brute_reversing", isPalindromeBrute(s));
+    printResult("Better_TwoPointer", isPalindromeBetter(s));
     printResult("Optimal (cleaned)", isPalindromeOptimal(s));
     printResult("Recursive", isPalindromeRecursive(0, s));
     
