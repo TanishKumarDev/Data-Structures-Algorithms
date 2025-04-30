@@ -11,17 +11,16 @@ This repository is a personal space where I document my journey of mastering Dat
 ## ✨ What You'll Find
 
 - Organized solutions from beginner to advanced
-- Real contest problems with accepted submissions
 - Clean, readable code with intuitive logic
 
 ## 📊 Track My Progress
 
 I'm consistently learning and updating this repo.  
 You can view my progress here:  
-[👉 Google Sheets Tracker](https://docs.google.com/spreadsheets/d/15oGvfI0nYTOddr-OcfMTr9ko5KjQo3uPoRdykKUNL_0/edit?gid=1133683155)
+[👉 DSA Tracker Sheets ]
+(https://docs.google.com/spreadsheets/d/15oGvfI0nYTOddr-OcfMTr9ko5KjQo3uPoRdykKUNL_0/edit?gid=1133683155)
 
 ---
 
 Thanks for visiting! Feel free to explore and reach out if you'd like to connect. 😊
-
-Made with 💙 while learning React step-by-step.
+Made with 💙 while learning Problem SOlving step-by-step.
