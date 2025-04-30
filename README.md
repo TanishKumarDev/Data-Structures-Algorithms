@@ -1,21 +1,27 @@
-# 🚀 Problem Solving Journey
+# 🚀 DSA Problem Solving Journey
 
-This repository contains my structured approach to mastering Data Structures, Algorithms using C++. It includes well-organized folders for concepts, topics, and contests.
+Hi there! 👋  
+This repository is a personal space where I document my journey of mastering Data Structures and Algorithms using C++.
 
-## 🛠 Languages & Tools
+## 🛠 Tech Stack
 
-- C++ (with STL)
-- Leetcode, GFG
+- **Language:** C++ (with STL)
+- **Platforms:** LeetCode, GeeksforGeeks
 
-## 💡 Highlights
+## ✨ What You'll Find
 
-- Focused on clean code and clear naming.
-- Real contest problems with my accepted solutions.
-- Beginner to advanced level practice.
+- Organized solutions from beginner to advanced
+- Real contest problems with accepted submissions
+- Clean, readable code with intuitive logic
+
+## 📊 Track My Progress
+
+I'm consistently learning and updating this repo.  
+You can view my progress here:  
+[👉 Google Sheets Tracker](https://docs.google.com/spreadsheets/d/15oGvfI0nYTOddr-OcfMTr9ko5KjQo3uPoRdykKUNL_0/edit?gid=1133683155)
 
 ---
 
-## 🚧 Work in Progress
+Thanks for visiting! Feel free to explore and reach out if you'd like to connect. 😊
 
-This repo will grow as I continue solving and learning. Stay tuned!
-
+Made with 💙 while learning React step-by-step.
