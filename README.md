@@ -17,8 +17,7 @@ This repository is a personal space where I document my journey of mastering Dat
 
 I'm consistently learning and updating this repo.  
 You can view my progress here:  
-[👉 DSA Tracker Sheets ]
-(https://docs.google.com/spreadsheets/d/15oGvfI0nYTOddr-OcfMTr9ko5KjQo3uPoRdykKUNL_0/edit?gid=1133683155)
+[👉 DSA Tracker Sheet](https://docs.google.com/spreadsheets/d/15oGvfI0nYTOddr-OcfMTr9ko5KjQo3uPoRdykKUNL_0/edit?gid=1133683155)
 
 ---
 
