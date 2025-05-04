@@ -1,6 +1,7 @@
 # 🚀 DSA Problem Solving Journey
 
 Hi there! 👋  
+
 This repository is a personal space where I document my journey of mastering Data Structures and Algorithms using C++.
 
 ## 🛠 Tech Stack
@@ -13,13 +14,29 @@ This repository is a personal space where I document my journey of mastering Dat
 - Organized solutions from beginner to advanced
 - Clean, readable code with intuitive logic
 
-## 📊 Track My Progress
+---
+## 🤝 Let’s Connect
 
-I'm consistently learning and updating this repo.  
-You can view my progress here:  
-[👉 DSA Tracker Sheet](https://docs.google.com/spreadsheets/d/15oGvfI0nYTOddr-OcfMTr9ko5KjQo3uPoRdykKUNL_0/edit?gid=1133683155)
+<p align="left">
+  <a href="https://linkedin.com/in/tanish29" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-tanish29-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://www.leetcode.com/tanish2_9" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-tanish2__9-orange?style=for-the-badge&logo=leetcode" alt="LeetCode" />
+  </a>
+  <a href="https://twitter.com/tanish_29" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/tanish_29?logo=twitter&style=for-the-badge" alt="Twitter" />
+  </a>
+  <a href="https://www.hackerrank.com/tanish2992002" target="_blank">
+    <img src="https://img.shields.io/badge/HackerRank-tanish2992002-2EC866?style=for-the-badge&logo=hackerrank" alt="HackerRank" />
+  </a>
+  <a href="https://www.hackerearth.com/tanish2992002" target="_blank">
+    <img src="https://img.shields.io/badge/HackerEarth-tanish2992002-323754?style=for-the-badge&logo=hackerearth" alt="HackerEarth" />
+  </a>
+</p>
+
+
 
 ---
+Made with 💙 while learning Problem Solving step-by-step.
 
-Thanks for visiting! Feel free to explore and reach out if you'd like to connect. 😊
-Made with 💙 while learning Problem SOlving step-by-step.
