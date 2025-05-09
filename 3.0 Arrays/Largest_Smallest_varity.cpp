@@ -4,7 +4,22 @@ using namespace std;
 // largest element (Brute Force)
 int findLargestBruteForce(vector<int>& arr) {
     // tc - O(n^2), sc - O(1)
+
     // Intuition: Compare every element with every other element to find the maximum
+    // Imagine you have a list of numbers with duplicates, like [1, 1, 2, 2, 3].
+    // A set automatically removes duplicates because it only stores unique elements.
+    // So, we dump all numbers into a set → duplicates disappear!
+    // Then, we copy the unique numbers back into the original array.
+
+    // Why it works:
+    // ✅ Easy to understand (just filtering duplicates).
+    // ❌ Uses extra space (O(n)) and takes more time (O(n log n)) due to set operations.
+
+    // Example:
+    // Input: [1, 1, 2, 2, 3]
+    // Set stores: {1, 2, 3}
+    // Final array (first 3 elements): [1, 2, 3]
+
     // Why INT_MIN? It's the smallest possible integer, so any number in array will be larger
     int largest = INT_MIN;
     for (int i = 0; i < arr.size(); i++) {
@@ -20,7 +35,19 @@ int findLargestBruteForce(vector<int>& arr) {
 // largest element (Better Approach)
 int findLargestBetter(vector<int>& arr) {
     // tc - O(n), sc - O(1)
+    
     // Intuition: Single pass through array, updating largest when we find bigger element
+    // Works only on sorted arrays (or if we sort first).
+
+    // Uses two pointers:
+    // i → Tracks the position of the last unique element.
+    // j → Scans the entire array for new unique elements.
+    // Whenever nums[j] is different from nums[i], we move i forward and store the new unique number.
+
+    // Why it works:
+    // ✅ No extra space (modifies array in-place).
+    // ✅ Super fast (O(n) time) – just one pass through the array.
+    // ❌ Requires the array to be sorted first (but sorting can be done in O(n log n) if needed).
     int largest = INT_MIN; // Initialize with smallest possible value
     for (int i = 0; i < arr.size(); i++) {
         if (arr[i] > largest) {
