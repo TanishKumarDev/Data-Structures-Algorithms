@@ -12,7 +12,9 @@ int main() {
 
     // Insert at beginning
     l.push_front(5);
+    l.push_back(40);
 
+    
     // Display elements
     cout << "List elements: ";
     for (int x : l)
